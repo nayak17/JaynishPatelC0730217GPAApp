@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<TextView
+         android:text="GPA Calculator"
+         android:textColor="@android:color/holo_red_dark"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/heading" />
+
+	<TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/stuinfo" />
+
+	<TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+		 android:layout_marginBottom="20dp"
+         android:id="@+id/stuid" />
+
+	<TextView
+        android:text="Mobile Development CSD_5443"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:id="@+id/sub1" />
+
+	  <TextView
+	  android:text="C# Programming CSD_3124"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/textView2" />
+  <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/sub2" />
+  <TextView
+       android:text="Java CSD_1114"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView3" />
+  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub3" />
+  <TextView
+       android:text="Web Designing CSD_1214"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView4" />
+  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub4" />
+  <TextView
+       android:text="Project Management CSA_1322"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView5" />
+  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub5" />
+
+  <Button
+        android:text="Calculate GPA and Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculate" />
+ 
+</LinearLayout>
